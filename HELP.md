@@ -11,7 +11,7 @@ Question can be found [here](https://github.com/ejperera/animalfamily/blob/maste
 ### Solution
 ***
 
-Following interfaces have been used to mark models which they have such behaviors.
+Following interfaces have been used to mark models which they have behaviors such as.
 
 * Walkable   - Mark that model has walking behaviour
 * Flyable    - Mark that model has flying behaviour
@@ -45,6 +45,6 @@ Question C: Model butterfly and its states types
 ***
  
 ```
-$ git clone https://example.com
+$ git clone https://github.com/ejperera/animalfamily.git
 $ cd ../path/to/the/file
 $ mvn clean install
