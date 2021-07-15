@@ -24,15 +24,15 @@ If any of the model requires to have specialised dynamic behaviors which is enfo
 
 Question A: Model birds and its specialized types
 
-![Image text](https://github.com/ejperera/demo/blob/master/doc/bird2.jpeg)
+![Image text](https://github.com/ejperera/animalfamily/blob/master/doc/bird.jpeg)
 
 Question B: Model fish and its specialized types
 
-![Image text](https://github.com/ejperera/demo/blob/master/doc/fish.jpeg)
+![Image text](https://github.com/ejperera/animalfamily/blob/master/doc/fish.jpeg)
 
 Question C: Model butterfly and its states types
 
-![Image text](https://github.com/ejperera/demo/blob/master/doc/butterfly.jpeg)
+![Image text](https://github.com/ejperera/animalfamily/blob/master/doc/butterfly.jpeg)
 
 
 ## Technologies
