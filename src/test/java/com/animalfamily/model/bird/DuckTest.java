@@ -9,7 +9,7 @@ public class DuckTest {
     public void testSing(){
 
         Duck duck= new Duck();
-        duck.setSoundBehaviour(new DuckSoundBehaviour());
+        duck.setSoundBehaviour(new DuckSound());
         Assertions.assertEquals(duck.sing(), "Quack , quack");
     }
 }

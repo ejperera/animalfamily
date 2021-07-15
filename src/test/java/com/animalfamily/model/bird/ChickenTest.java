@@ -10,7 +10,7 @@ public class ChickenTest {
     public void testSing(){
 
         Chicken chicken= new Chicken(ChickenType.CHICKEN);
-        chicken.setSoundBehaviour(new ChickenSoundBehaviour());
+        chicken.setSoundBehaviour(new ChickenSound());
         Assertions.assertEquals(chicken.getChickenType(), ChickenType.CHICKEN);
         Assertions.assertEquals(chicken.sing(), "Cluck , Cluck ");
     }

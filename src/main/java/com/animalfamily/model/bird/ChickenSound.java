@@ -2,9 +2,8 @@ package com.animalfamily.model.bird;
 
 import com.animalfamily.model.SoundBehaviour;
 
-public class DuckSoundBehaviour implements SoundBehaviour {
-
-    private String says = "Quack , quack";
+public class ChickenSound implements SoundBehaviour {
+    private String says = "Cluck , Cluck ";
     @Override
     public String makeSound() {
         return says;

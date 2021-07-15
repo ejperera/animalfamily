@@ -9,7 +9,7 @@ public class RoosterTest {
     @Test
     public void testSing(){
         Chicken rooster= new Chicken(ChickenType.ROOSTER);
-        rooster.setSoundBehaviour(new RoosterSoundBehaviour());
+        rooster.setSoundBehaviour(new RoosterSound());
         Assertions.assertEquals(rooster.getChickenType(), ChickenType.ROOSTER);
         Assertions.assertEquals(rooster.sing(), "Cock-a-doodle-doo");
     }
