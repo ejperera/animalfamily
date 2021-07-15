@@ -1,6 +1,5 @@
 package com.animalfamily.model.metamorphosis;
 
-import com.animalfamily.model.fish.Shark;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
