@@ -6,6 +6,7 @@ import com.animalfamily.model.enums.SizeEnum;
 public class Animal {
 
     private SoundBehaviour soundBehaviour;
+    private WalkingBehaviour walkingBehaviour;
     private SizeEnum size;
     private ColorEnum color;
 
@@ -23,6 +24,14 @@ public class Animal {
 
     public void setSoundBehaviour(SoundBehaviour soundBehaviour) {
         this.soundBehaviour = soundBehaviour;
+    }
+
+    public WalkingBehaviour getWalkingBehaviour() {
+        return walkingBehaviour;
+    }
+
+    public void setWalkingBehaviour(WalkingBehaviour walkingBehaviour) {
+        this.walkingBehaviour = walkingBehaviour;
     }
 
     public SizeEnum getSize() {
